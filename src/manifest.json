@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "com.otzaria.biographies-plus",
+  "name": "ביוגרפיות+",
+  "version": "1.3.0",
+  "description": "תנאים ואמוראים ודמויות תנ\"כיות, סדר הדורות, מסעות במדבר, לוח אירועים וקשרי דורות — עם תיוג פרשות ופתיחת מקור בקורא.",
+  "author": "Yair Daniel",
+  "minAppVersion": "0.9.93",
+  "sdkVersion": "1.x",
+  "stability": "stable",
+  "entrypoint": "index.html",
+  "permissions": [
+    "app.info.read",
+    "library.books.read",
+    "library.content.read",
+    "reader.open",
+    "ui.feedback",
+    "network.access",
+    "events.subscribe:theme.changed"
+  ],
+  "network": {
+    "enabled": true,
+    "allowlist": [
+      "https://api.emailjs.com"
+    ]
+  },
+  "contributes": {
+    "toolTab": {
+      "title": "ביוגרפיות+",
+      "order": 200,
+      "defaultPinned": true,
+      "iconName": "contact_card_24_regular"
+    }
+  }
+}
