@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "com.otzaria.biographies-plus",
   "name": "ביוגרפיות+",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "תנאים ואמוראים ודמויות תנ\"כיות, סדר הדורות, מסעות במדבר, לוח אירועים וקשרי דורות — עם תיוג פרשות ופתיחת מקור בקורא.",
   "author": "Yair Daniel",
   "minAppVersion": "0.9.93",
